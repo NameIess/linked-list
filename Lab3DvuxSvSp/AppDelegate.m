@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "NSObject+Node.h"
+#import "NSObject+LinkedList.h"
 
 @interface AppDelegate ()
 
@@ -17,9 +19,22 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    LinkedList* linkedList = [[LinkedList alloc] init];
+    
+    [linkedList addLast:@"1"];
+    [linkedList addLast:@"4"];
+    [linkedList addLast:@"3"];
+    [linkedList addLast:@"6"];
+    [linkedList addLast:@"5"];
+    NSLog(@"%@", linkedList);
+    
+    NSLog(@"%@", linkedList);
+    LinkedList* sortedList = [linkedList insertSort];
+    NSLog(@"new sorted list %@", sortedList);
+    
+    NSLog(@"old list after sorting %@", linkedList);
     return YES;
 }
-
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

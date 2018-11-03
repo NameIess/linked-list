@@ -16,6 +16,8 @@
 		3279E62121864CB100B39732 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3279E62021864CB100B39732 /* main.m */; };
 		3279E62B21864CB200B39732 /* Lab3DvuxSvSpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3279E62A21864CB200B39732 /* Lab3DvuxSvSpTests.m */; };
 		3279E63621864CB200B39732 /* Lab3DvuxSvSpUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3279E63521864CB200B39732 /* Lab3DvuxSvSpUITests.m */; };
+		3279E6452186504200B39732 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 3279E6442186504200B39732 /* Node.m */; };
+		3279E6482186542900B39732 /* LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 3279E6472186542900B39732 /* LinkedList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		3279E63121864CB200B39732 /* Lab3DvuxSvSpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab3DvuxSvSpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3279E63521864CB200B39732 /* Lab3DvuxSvSpUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lab3DvuxSvSpUITests.m; sourceTree = "<group>"; };
 		3279E63721864CB200B39732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3279E6432186501F00B39732 /* NSObject+Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Node.h"; sourceTree = "<group>"; };
+		3279E6442186504200B39732 /* Node.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		3279E6462186540000B39732 /* NSObject+LinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+LinkedList.h"; sourceTree = "<group>"; };
+		3279E6472186542900B39732 /* LinkedList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkedList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +119,10 @@
 				3279E61F21864CB100B39732 /* Info.plist */,
 				3279E62021864CB100B39732 /* main.m */,
 				3279E61721864CB100B39732 /* Lab3DvuxSvSp.xcdatamodeld */,
+				3279E6432186501F00B39732 /* NSObject+Node.h */,
+				3279E6442186504200B39732 /* Node.m */,
+				3279E6462186540000B39732 /* NSObject+LinkedList.h */,
+				3279E6472186542900B39732 /* LinkedList.m */,
 			);
 			path = Lab3DvuxSvSp;
 			sourceTree = "<group>";
@@ -268,6 +278,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3279E6482186542900B39732 /* LinkedList.m in Sources */,
+				3279E6452186504200B39732 /* Node.m in Sources */,
 				3279E61321864CB100B39732 /* ViewController.m in Sources */,
 				3279E61021864CB100B39732 /* AppDelegate.m in Sources */,
 				3279E62121864CB100B39732 /* main.m in Sources */,
